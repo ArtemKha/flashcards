@@ -1,21 +1,20 @@
 const express = require('express');
+const bodyParser = require('body-parser');
 
 const app = express()
-
-
-const colors = [
-  'Red', 
-  'Green', 
-  'Blue', 
-  'Hue', 
-  'Saturation',
-  'purple'
-]
-
+app.use(bodyParser.urlencoded({ extended: false }))
 app.set('view engine', 'pug')
 
 app.get('/', (req, res) => {
   res.render('index')
+})
+
+app.get('/hello', (req, res) => {
+  res.render('hello')
+})
+
+app.post('/hello', (req, res) => {
+  res.render('hello', { name: req.body.username })
 })
 
 app.get('/cards', (req, res) => {
