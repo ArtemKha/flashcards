@@ -1,13 +1,16 @@
 const express = require('express');
 
 const app = express()
-app.get('/', (req, res) => {
-  res.send('Try hero!')
-})
+
 app.set('view engine', 'pug')
 
-app.get('/hello', (req, res) => {
-  res.send('Hello, hero!')
+app.get('/', (req, res) => {
+  res.render('index')
+})
+
+app.get('/card', (req, res) => {
+  res.locals.prompt = 'Who is buried in Grant\'s tomb?'
+  res.render('card')
 })
 
 app.listen(3000, () => {
