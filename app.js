@@ -9,22 +9,33 @@ app.use(cookieParser())
 app.set('view engine', 'pug')
 
 app.get('/', (req, res) => {
-  res.render('index')
+  const name = req.cookies.username
+  name ? res.render('index', { name }) 
+       : res.redirect('/hello')
 })
 
 app.get('/hello', (req, res) => {
-  res.render('hello', { name: req.cookies.username })
+  const name = req.cookies.username
+  name ? res.redirect('/')
+       : res.render('hello') 
+})
+
+app.post('/', (req, res) => {
+  res.clearCookie('username')
+  res.redirect('/hello')
 })
 
 app.post('/hello', (req, res) => {
   res.cookie('username', req.body.username )
-  res.render('hello', { name: req.body.username })
+  res.redirect('/')
 })
 
 app.get('/cards', (req, res) => {
-  res.locals.prompt = 'Who is buried in Grant\'s tomb?'
-  res.locals.hint = 'Think about whose tomb it is.'
-  res.locals.colors = colors
+  res.locals = {
+    prompt: 'Who is buried in Grant\'s tomb?',
+    hint: 'Think about whose tomb it is.',
+    colors
+  }
   res.render('card')
 })
 
