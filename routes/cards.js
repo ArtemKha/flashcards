@@ -1,6 +1,6 @@
 const express = require('express')
 const router = express.Router()
-const { data } = require('../data/flashcardData.json')
+const { data } = require('../data/words_en.json')
 const { cards } = data
 
 router.get('/', (req, res) => {

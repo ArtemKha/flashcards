@@ -1,0 +1,275 @@
+{
+    "data": {
+        "title": "JavaScript Flashcards",
+        "cards": [
+            {
+                "question": "whining",
+                "answer": "нытье"
+            },
+            {
+                "question": "seize",
+                "answer": "воспользоваться"
+            },
+            {
+                "question": "opaque",
+                "answer": "непрозрачный"
+            },
+            {
+                "question": "restrictions",
+                "answer": "ограничения"
+            },
+            {
+                "question": "tradeoff",
+                "answer": "компромисс"
+            },
+            {
+                "question": "indent",
+                "answer": "отступ"
+            },
+            {
+                "question": "encounter",
+                "answer": "столкновение"
+            },
+            {
+                "question": "convention",
+                "answer": "условность"
+            },
+            {
+                "question": "comprised",
+                "answer": "состоит"
+            },
+            {
+                "question": "to tie",
+                "answer": "связать"
+            },
+            {
+                "question": "purged",
+                "answer": "продували"
+            },
+            {
+                "question": "recap",
+                "answer": "резюмировать"
+            },
+            {
+                "question": "bench",
+                "answer": "скамейка"
+            },
+            {
+                "question": "parcel",
+                "answer": "пакет"
+            },
+            {
+                "question": "bulb",
+                "answer": "колба"
+            },
+            {
+                "question": "reward",
+                "answer": "награда"
+            },
+            {
+                "question": "diamond",
+                "answer": "бриллиант"
+            },
+            {
+                "question": "sweep",
+                "answer": "подметать"
+            },
+            {
+                "question": "enjoy",
+                "answer": "наслаждаться"
+            },
+            {
+                "question": "fix",
+                "answer": "фиксировать"
+            },
+            {
+                "question": "midwife",
+                "answer": "акушерка"
+            },
+            {
+                "question": "milkmaid",
+                "answer": "доярка"
+            },
+            {
+                "question": "notary public",
+                "answer": "государственный нотариус"
+            },
+            {
+                "question": "pharmaceutist",
+                "answer": "фармацевт"
+            },
+            {
+                "question": "conciliation",
+                "answer": "соглашательство"
+            },
+            {
+                "question": "ado",
+                "answer": "суматоха"
+            },
+            {
+                "question": "vice versa",
+                "answer": "наоборот"
+            },
+            {
+                "question": "concurrent",
+                "answer": "параллельный"
+            },
+            {
+                "question": "Defer",
+                "answer": "Перенести"
+            },
+            {
+                "question": "caveat",
+                "answer": "предостережение"
+            },
+            {
+                "question": "invasive",
+                "answer": "агрессивный"
+            },
+            {
+                "question": "kudos",
+                "answer": "почет"
+            },
+            {
+                "question": "sanitized",
+                "answer": "дезинфицировать"
+            },
+            {
+                "question": "suspend",
+                "answer": "приостановить"
+            },
+            {
+                "question": "clumsy",
+                "answer": "топорный"
+            },
+            {
+                "question": "verbose",
+                "answer": "подробный"
+            },
+            {
+                "question": "generic",
+                "answer": "общий"
+            },
+            {
+                "question": "expose",
+                "answer": "разоблачать"
+            },
+            {
+                "question": "named after",
+                "answer": "названный в честь"
+            },
+            {
+                "question": "expose",
+                "answer": "разоблачать"
+            },
+            {
+                "question": "namely",
+                "answer": "а именно"
+            },
+            {
+                "question": "propagate",
+                "answer": "размножать"
+            },
+            {
+                "question": "desperate",
+                "answer": "отчаянный"
+            },
+            {
+                "question": "inflate",
+                "answer": "раздувать"
+            },
+            {
+                "question": "objective",
+                "answer": "задача"
+            },
+            {
+                "question": "merely",
+                "answer": "просто"
+            },
+            {
+                "question": "redundant",
+                "answer": "избыточный"
+            },
+            {
+                "question": "whirl",
+                "answer": "завихрение"
+            },
+            {
+                "question": "obstacle",
+                "answer": "препятствие"
+            },
+            {
+                "question": "toughest",
+                "answer": "жестким"
+            },
+            {
+                "question": "affair",
+                "answer": "дело"
+            },
+            {
+                "question": "twist",
+                "answer": "твист"
+            },
+            {
+                "question": "pregnant pause",
+                "answer": "значительная пауза"
+            },
+            {
+                "question": "tenacity",
+                "answer": "цепкость"
+            },
+            {
+                "question": "rebound",
+                "answer": "отскок"
+            },
+            {
+                "question": "controversial",
+                "answer": "спорный"
+            },
+            {
+                "question": "conducted",
+                "answer": "проведены"
+            },
+            {
+                "question": "anecdote",
+                "answer": "история"
+            },
+            {
+                "question": "stance",
+                "answer": "позиция"
+            },
+            {
+                "question": "compromise",
+                "answer": "компромисс"
+            },
+            {
+                "question": "succinctly",
+                "answer": "сжато"
+            },
+            {
+                "question": "disparaging",
+                "answer": "пренебрежительный"
+            },
+            {
+                "question": "vocalize",
+                "answer": "вокализировать"
+            },
+            {
+                "question": "overlooked",
+                "answer": "упускать из виду"
+            },
+            {
+                "question": "pinpoint",
+                "answer": "определить"
+            },
+            {
+                "question": "ad hoc",
+                "answer": "для этого случая"
+            },
+            {
+                "question": "tedious",
+                "answer": "утомительный"
+            }
+        ]
+    }
+}
